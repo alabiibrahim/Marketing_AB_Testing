@@ -135,6 +135,11 @@ What should the team do differently next week? That is what a stakeholder actual
 */
 
 ```
+
+**Statistical Significance: Test**
+
 ![card](assets/Screenshot_6-7-2026_15378_localhost.jpeg)
+
 ![card](assets/Screenshot_6-7-2026_153731_localhost.jpeg)
+
 ![card](assets/Screenshot_6-7-2026_15385_localhost.jpeg)
