@@ -1,3 +1,6 @@
+## Objective
+The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant.
+
 ```sql
 -- MARKETING A/B TESTING.
 
