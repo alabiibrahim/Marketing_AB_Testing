@@ -143,3 +143,9 @@ What should the team do differently next week? That is what a stakeholder actual
 ![card](assets/Screenshot_6-7-2026_153731_localhost.jpeg)
 
 ![card](assets/Screenshot_6-7-2026_15385_localhost.jpeg)
+
+
+## **Insights**
+- Chi-squared= 54 and p-value < 0.005 shows difference in statistical significance.
+- psa have a conversion rate of 1.79%, 23,524 Users and 420 conversion.
+- ad have a conversion rate of 2.55%, 564, 577 Users and 14,423 conversions.
