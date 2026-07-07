@@ -13,7 +13,7 @@
 
 
 ## Objective
-The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant.
+The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant. [DataSource]()
 
 ## Questions
 
@@ -26,7 +26,7 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 5. Test for statistical significance.
 
 ```sql
--- MARKETING A/B TESTING.
+-- MARKETING A/B HYPOTHESES.
 
 SELECT COUNT(*) FROM [dbo].[marketing_AB] AS ROW_COUNT; -- dataset row check. 
 
@@ -98,12 +98,9 @@ WITH ad_seen  AS (
             COUNT(*) AS 'Users',
             ROUND(SUM(CASE WHEN [converted] = 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS 'conv_rate_pct'
         FROM ad_seen
-        GROUP BY Ads_seen
+        GROUP BY Ads_seen;
 
-/* bq 4:    
-
-Which day of the week and time of day drives the most conversions? 
-This is where the analysis becomes directly actionable for a marketing team.    */
+/* bq 4:   
 
 -- Which day of week drives the most conversion?
 
@@ -127,7 +124,7 @@ This is where the analysis becomes directly actionable for a marketing team.    
     GROUP BY [most_ads_hour]
     ORDER BY conversions DESC;
   
-
+-- calculate average ads seen by test group.
     SELECT 
     test_group,
     COUNT(*) AS total_users,
@@ -139,7 +136,6 @@ This is where the analysis becomes directly actionable for a marketing team.    
     ROUND(AVG(total_ads), 1) AS avg_ads_seen
 FROM [dbo].[marketing_AB] 
 GROUP BY test_group;
-
 
 ```
 
@@ -156,7 +152,7 @@ GROUP BY test_group;
 | Tool | Purpose|
 |---|---|
 | SQL | Data cleaning and analysis |
-| Python | test statistical significance: chi-square, p-value |
+| Python | Test statistical significance: chi-square, p-value |
 
 
 ## **Insights**
