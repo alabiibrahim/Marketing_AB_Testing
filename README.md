@@ -148,6 +148,17 @@ GROUP BY test_group;
 
 **Testing Hypotheses**
 
+```python
+
+from scipy.stats import chi2_contingency
+
+table = [[14423, 550154], [420, 23104]]
+chi2, p, dof, expected = chi2_contingency(table)
+print(chi2, p)
+
+```
+
+
 ![card](assets/Screenshot_6-7-2026_15378_localhost.jpeg)
 
 ![card](assets/Screenshot_6-7-2026_153731_localhost.jpeg)
