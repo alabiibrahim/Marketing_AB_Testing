@@ -1,3 +1,5 @@
+-- MARKETING A/B HYPOTHESES.
+
 ### Table of Contents
 
 - [Overview](#overview)
@@ -5,13 +7,12 @@
 - [Questions](#questions)
 - [Methodology](#methodology)
 - [Tools](#tools)
-- [Dashboard](#dashboard)
 - [Insights](#insights)
 - [Recommendations](#recommendations)
 
 
-
 ## Objective
+
 The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant. [Data](https://github.com/alabiibrahim/Marketing_AB_Testing/blob/main/assets/dataset/marketing_AB.csv)
 
 ---
@@ -34,7 +35,6 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 4. Share recommendations based on insights from data to be used for strategic business decision.
 
 ```sql
--- MARKETING A/B HYPOTHESES.
 
 SELECT COUNT(*) FROM [dbo].[marketing_AB] AS ROW_COUNT; -- dataset row check. 
 
