@@ -15,14 +15,18 @@
 ## Objective
 The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant.
 
+## Questions
+
+1. Calculates total and split by group.
+2. Calculates conversion rates by group.
+3. Ads exposure. 
+- Not all users saw the same number of ads. 
+- Does seeing more ads make you more likely to convert? And if it does — is that causation or correlation?
+4. Which day of the week and time of day drives the most conversions?
+5. Test for statistical significance.
+
 ```sql
 -- MARKETING A/B TESTING.
-
-
-/* bq1: Check your group sizes first.
-
-Before any analysis, check how users are split between groups. 
-An imbalanced experiment changes how you interpret everything that follows.     */
 
 SELECT COUNT(*) FROM [dbo].[marketing_AB] AS ROW_COUNT; -- dataset row check. 
 
@@ -137,20 +141,6 @@ FROM [dbo].[marketing_AB]
 GROUP BY test_group;
 
 
-/* bq5: Test for statistical significance.
-
-Not optional. A difference in conversion rates means nothing until you confirm it did not happen by chance. 
-This step is what separates a real finding from noise.  */
-
-
-
---bq6: Write it up for a stakeholder.
-
-/*Translate your findings into plain language. 
-What did the campaign achieve? Is the result trustworthy? 
-What should the team do differently next week? That is what a stakeholder actually needs from you.
-*/
-
 ```
 
 **Statistical Significance: Test**
@@ -160,6 +150,13 @@ What should the team do differently next week? That is what a stakeholder actual
 ![card](assets/Screenshot_6-7-2026_153731_localhost.jpeg)
 
 ![card](assets/Screenshot_6-7-2026_15385_localhost.jpeg)
+
+## Tools
+
+| Tool | Purpose|
+|---|---|
+| SQL | Data cleaning and analysis |
+| Python | test statistical significance: chi-square, p-value |
 
 
 ## **Insights**
