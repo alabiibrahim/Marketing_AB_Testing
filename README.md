@@ -18,20 +18,21 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 
 ## Questions
 
-1. Calculates total and split by group.
-2. Calculates conversion rates by group.
-3. Ads exposure. 
-- Not all users saw the same number of ads. 
-- Does seeing more ads make you more likely to convert? And if it does, is that causation or correlation?
-4. Which day of the week and time of day drives the most conversions?
-5. Test for statistical significance.
+- Calculates total and split by group.
+- Calculates conversion rates by group.
+- Ads exposure. 
+	- Not all users saw the same number of ads. 
+	- Does seeing more ads make you more likely to convert? And if it does, is that causation or correlation?
+- Which day of the week and time of day drives the most conversions?
+- Test for statistical significance.
 
 ---
 ## Methodology
-1. Import raw data to SQL server for cleaning and analysis.
-2. Tailored analysis to answering business questions using key metrics.
-3. Connect Python to SQL (query) database to perform statistical test (chi-square, p-value) to understand difference between groups.
-4. Share recommendations based on insights from data to be used for strategic business decision.
+
+- Import raw data to SQL server for cleaning and analysis.
+- Tailored analysis to answering business questions using key metrics.
+- Connect Python to SQL (query) database to perform statistical test (chi-square, p-value) to understand difference between groups.
+- Share recommendations based on insights from data to be used for strategic business decision.
 
 ```sql
 
