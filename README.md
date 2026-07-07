@@ -160,13 +160,6 @@ print(chi2, p)
 
 ```
 
-```
-![card](assets/Screenshot_6-7-2026_15378_localhost.jpeg)
-
-![card](assets/Screenshot_6-7-2026_153731_localhost.jpeg)
-```
-
-
 ## Tools
 
 | Tool | Purpose|
