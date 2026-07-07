@@ -13,7 +13,9 @@
 
 ## Objective
 The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant. [Data](https://github.com/alabiibrahim/Marketing_AB_Testing/blob/main/assets/dataset/marketing_AB.csv)
+
 ---
+
 ## Questions
 
 1. Calculates total and split by group.
