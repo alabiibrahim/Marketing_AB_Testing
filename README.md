@@ -174,12 +174,12 @@ GROUP BY test_group;
 
 ## Recommendations
 
-1. Shift majority of the budget from the 'psa' variant to the 'ad' variant. Given the statistical significance (p<0.005) and the higher overall conversion rate, continuing to spend heavily on 'psa' is inefficient.
+- Shift majority of the budget from the 'psa' variant to the 'ad' variant. Given the statistical significance (p<0.005) and the higher overall conversion rate, continuing to spend heavily on 'psa' is inefficient.
 
-2. Consolidate ad spend into fewer, high-traffic inventory slots to ensure individual ads are served to at least 51 users, with a clear KPI to push for 100+ users per placement. Avoid spreading the budget across hundreds of low-traffic pages, as this dilutes reach and drastically lowers the conversion rate.
+- Consolidate ad spend into fewer, high-traffic inventory slots to ensure individual ads are served to at least 51 users, with a clear KPI to push for 100+ users per placement. Avoid spreading the budget across hundreds of low-traffic pages, as this dilutes reach and drastically lowers the conversion rate.
 
-3. Split Monday/Tuesday strategy into two distinct campaigns by
+- Split Monday/Tuesday strategy into two distinct campaigns by
    - Scheduling heavy budgets between 1 pm and 4 pm to capture the highest absolute number of conversions.
    - Schedule a separate, targeted budget specifically for the 8 pm slot. Despite lower traffic, this slot delivers the highest conversion rate, this can be used to test premium creatives or retargeting strategies, as the audience active at this hour is clearly highly engaged.
 
-5. Observe why 8 pm performs so well. Is it the creative, the user's free time, or the device type? Copy the successful elements from the 8 pm slot and test them during the 1 to 4pm window to see if it can artificially boost the afternoon rates.
+- Observe why 8 pm performs so well. Is it the creative, the user's free time, or the device type? Copy the successful elements from the 8 pm slot and test them during the 1 to 4pm window to see if it can artificially boost the afternoon rates.
