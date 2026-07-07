@@ -101,7 +101,7 @@ WITH ad_seen  AS (
         FROM ad_seen
         GROUP BY Ads_seen;
 
-/* bq 4:   
+ bq 4:   
 
 -- Which day of week drives the most conversion?
 
