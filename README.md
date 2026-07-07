@@ -2,7 +2,6 @@
 
 ### Table of Contents
 
-- [Overview](#overview)
 - [Objective](#objective)
 - [Questions](#questions)
 - [Methodology](#methodology)
@@ -165,19 +164,22 @@ GROUP BY test_group;
 
 ## Insights
 
-- Chi-square = 54 and p-value < 0.005 shows difference in statistical significance.
-- 'psa' have a conversion rate of 1.79%, 23,524 users and 420 conversion.
-- 'ad' have a conversion rate of 2.55%, 564,577 users and 14,423 conversions.
-- ad seen by 100+ users have conversion rate of 17.14%.
-- ad seen between 51-100 users have a conversion rate of 11.63%.
-- Monday & Tuesday drives the most conversion with a slight difference between them.
-- Most conversion happens between 1 to 4pm. Also,
-- 4pm and 8pm stands out with the highest conversion_rate, especially 8pm having a lower conversion but higher conversion rate.
+- A chi-square value of 54 (p < 0.005) confirms a statistically significant difference between the test groups.
+- The 'PSA' variant yielded a 1.79% conversion rate (420 conversions from 23,524 users), whereas the 'Ad' variant achieved 2.55% (14,423 conversions from 564,577 users).
+- Within the 'Ad' group, performance scales notably with audience reach: ads seen by 51–100 users have an 11.63% conversion rate, which jumps to 17.14% for those seen by over 100 users.
+- Regarding timing, Monday and Tuesday drive the highest volume of conversions, with only a negligible difference between them.
+- While the bulk of conversions occur between 1 pm and 4 pm, the peak conversion rates are observed at 4 pm and 8 pm. Notably, 8 pm stands out with the highest rate of all, despite having a lower absolute number of conversions compared to the afternoon rush.
 
 ---
 
 ## Recommendations
 
-- Running of Ads should target a minimum of 50 people and above to increase conversion rate.
-- Running of ads should be timed, and also target the first two workday of the week between lunch time and closing hour.
-- 
+1. Immediately shift the majority of the budget from the 'psa' variant to the 'ad' variant. Given the statistical significance (p<0.005) and the higher overall conversion rate, continuing to spend heavily on 'psa' is inefficient.
+
+2. Consolidate ad spend into fewer, high-traffic inventory slots to ensure individual ads are served to at least 51 users, with a clear KPI to push for 100+ users per placement. Avoid spreading the budget across hundreds of low-traffic pages, as this dilutes reach and drastically lowers the conversion rate.
+
+3. Split Monday/Tuesday strategy into two distinct campaigns by
+   - Scheduling heavy budgets between 1 pm and 4 pm to capture the highest absolute number of conversions.
+   - Schedule a separate, targeted budget specifically for the 8 pm slot. Despite lower traffic, this slot delivers the highest conversion rate—use this to test premium creatives or retargeting strategies, as the audience active at this hour is clearly highly engaged.
+
+5. Investigate why 8 pm performs so well. Is it the creative, the user's mindset (leisure time), or the device type? Replicate the successful elements from the 8 pm slot and test them during the 1–4 pm window to see if you can artificially boost the afternoon rates.
