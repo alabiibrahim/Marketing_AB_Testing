@@ -28,6 +28,10 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 
 ---
 ## Methodology
+1. Import raw data to SQL server for cleaning and analysis.
+2. Tailored analysis to answering business questions using key metrics.
+3. Connect Python to SQL (query) database to perform statistical test (chi-square, p-value) to understand difference between groups.
+4. Share recommendations based on insights from data to be used for strategic business decision.
 
 ```sql
 -- MARKETING A/B HYPOTHESES.
