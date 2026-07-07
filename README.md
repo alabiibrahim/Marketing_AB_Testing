@@ -1,7 +1,6 @@
 ### Table of Contents
 
 - [Overview](#overview)
-- [Data Source](#data-source)
 - [Objective](#objective)
 - [Questions](#questions)
 - [Methodology](#methodology)
@@ -13,7 +12,7 @@
 
 
 ## Objective
-The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant. [DataSource](https://github.com/alabiibrahim/Marketing_AB_Testing/blob/main/assets/dataset/marketing_AB.csv)
+The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant. [Data](https://github.com/alabiibrahim/Marketing_AB_Testing/blob/main/assets/dataset/marketing_AB.csv)
 
 ## Questions
 
@@ -24,6 +23,8 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 - Does seeing more ads make you more likely to convert? And if it does — is that causation or correlation?
 4. Which day of the week and time of day drives the most conversions?
 5. Test for statistical significance.
+
+## Methodology
 
 ```sql
 -- MARKETING A/B HYPOTHESES.
@@ -154,8 +155,11 @@ GROUP BY test_group;
 | SQL | Data cleaning and analysis |
 | Python | Test statistical significance: chi-square, p-value |
 
+```
+```
 
-## **Insights**
+## Insights
+
 - Chi-square = 54 and p-value < 0.005 shows difference in statistical significance.
 - 'psa' have a conversion rate of 1.79%, 23,524 users and 420 conversion.
 - 'ad' have a conversion rate of 2.55%, 564,577 users and 14,423 conversions.
@@ -165,8 +169,10 @@ GROUP BY test_group;
 - Most conversion happens between 1 to 4pm. Also,
 - 4pm and 8pm stands out with the highest conversion_rate, especially 8pm having a lower conversion but higher conversion rate.
 
-
+```
+```
 ## Recommendations
+
 - Running of Ads should target a minimum of 50 people and above to increase conversion rate.
 - Running of ads should be timed, and also target the first two workday of the week between lunch time and closing hour.
 - 
