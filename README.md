@@ -30,7 +30,7 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 ## Methodology
 
 - Import raw data to SQL server for cleaning and analysis.
-- Tailored analysis to answering business questions using key metrics.
+- Tailored analysis to answering business questions using key metrics (conversions, conversion rate).
 - Connect Python to SQL (query) database to perform statistical test (chi-square, p-value) to understand difference between groups.
 - Share recommendations based on insights from data to be used for strategic business decision.
 
