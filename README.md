@@ -1,4 +1,4 @@
--- MARKETING A/B HYPOTHESES.
+-- MARKETING A/B HYPOTHESES TEST.
 
 ### Table of Contents
 
@@ -23,7 +23,7 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 2. Calculates conversion rates by group.
 3. Ads exposure. 
 - Not all users saw the same number of ads. 
-- Does seeing more ads make you more likely to convert? And if it does — is that causation or correlation?
+- Does seeing more ads make you more likely to convert? And if it does, is that causation or correlation?
 4. Which day of the week and time of day drives the most conversions?
 5. Test for statistical significance.
 
@@ -146,7 +146,7 @@ GROUP BY test_group;
 
 ```
 
-**Statistical Significance: Test**
+**Testing Hypotheses**
 
 ![card](assets/Screenshot_6-7-2026_15378_localhost.jpeg)
 
