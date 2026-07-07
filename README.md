@@ -18,8 +18,8 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 
 ## Questions
 
-- Calculates total and split by group.
-- Calculates conversion rates by group.
+- Calculate user total and split by group.
+- Calculate conversion rates by group.
 - Ads exposure. 
 	- Not all users saw the same number of ads. 
 	- Does seeing more ads make you more likely to convert? And if it does, is that causation or correlation?
@@ -166,9 +166,13 @@ GROUP BY test_group;
 ## Insights
 
 - A chi-square value of 54 (p < 0.005) confirms a statistically significant difference between the test groups.
+
 - The 'PSA' variant yielded a 1.79% conversion rate (420 conversions from 23,524 users), whereas the 'Ad' variant achieved 2.55% (14,423 conversions from 564,577 users).
+
 - Within the 'Ad' group, performance scales notably with audience reach: ads seen by 51 to 100 users have an 11.63% conversion rate, which jumps to 17.14% for those seen by over 100 users.
+
 - Regarding timing, Monday and Tuesday drive the highest volume of conversions, with only a slight difference between them.
+
 - Most conversions occur between 1pm and 4pm, the peak conversion rates are observed at 4pm and 8pm. Notably, 8 pm stands out with the highest rate of all, despite having a lower number of conversions compared to the afternoon rush.
 
 ---
