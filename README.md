@@ -63,8 +63,7 @@ GROUP BY test_group;
 
 /*
 -- bq3: Ads exposure. 
-Not all users saw the same number of ads. 
-Does seeing more ads make you more likely to convert? And if it does — is that causation or correlation?    */
+Does seeing more ads make you more likely to convert? And if it does, is that causation or correlation?    */
 
 WITH Aggregated AS (
     SELECT 
