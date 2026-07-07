@@ -1,3 +1,17 @@
+### Table of Contents
+
+- [Overview](#overview)
+- [Data Source](#data-source)
+- [Objective](#objective)
+- [Questions](#questions)
+- [Methodology](#methodology)
+- [Tools](#tools)
+- [Dashboard](#dashboard)
+- [Insights](#insights)
+- [Recommendations](#recommendations)
+
+
+
 ## Objective
 The idea of the dataset is to analyze the groups, find if the ads were successful, how much the company can make from the ads, and if the difference between the groups is statistically significant.
 
@@ -149,6 +163,17 @@ What should the team do differently next week? That is what a stakeholder actual
 
 
 ## **Insights**
-- Chi-squared= 54 and p-value < 0.005 shows difference in statistical significance.
-- psa have a conversion rate of 1.79%, 23,524 Users and 420 conversion.
-- ad have a conversion rate of 2.55%, 564, 577 Users and 14,423 conversions.
+- Chi-square = 54 and p-value < 0.005 shows difference in statistical significance.
+- 'psa' have a conversion rate of 1.79%, 23,524 users and 420 conversion.
+- 'ad' have a conversion rate of 2.55%, 564,577 users and 14,423 conversions.
+- ad seen by 100+ users have conversion rate of 17.14%.
+- ad seen between 51-100 users have a conversion rate of 11.63%.
+- Monday & Tuesday drives the most conversion with a slight difference between them.
+- Most conversion happens between 1 to 4pm. Also,
+- 4pm and 8pm stands out with the highest conversion_rate, especially 8pm having a lower conversion but higher conversion rate.
+
+
+## Recommendations
+- Running of Ads should target a minimum of 50 people and above to increase conversion rate.
+- Running of ads should be timed, and also target the first two workday of the week between lunch time and closing hour.
+- 
