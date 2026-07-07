@@ -1,5 +1,7 @@
 -- MARKETING A/B HYPOTHESES TEST.
 
+![card](assets/Screenshot_6-7-2026_15385_localhost.jpeg)
+
 ### Table of Contents
 
 - [Objective](#objective)
@@ -158,12 +160,12 @@ print(chi2, p)
 
 ```
 
-
+```
 ![card](assets/Screenshot_6-7-2026_15378_localhost.jpeg)
 
 ![card](assets/Screenshot_6-7-2026_153731_localhost.jpeg)
+```
 
-![card](assets/Screenshot_6-7-2026_15385_localhost.jpeg)
 
 ## Tools
 
