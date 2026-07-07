@@ -155,8 +155,7 @@ GROUP BY test_group;
 | SQL | Data cleaning and analysis |
 | Python | Test statistical significance: chi-square, p-value |
 
-```
-```
+---
 
 ## Insights
 
@@ -169,8 +168,8 @@ GROUP BY test_group;
 - Most conversion happens between 1 to 4pm. Also,
 - 4pm and 8pm stands out with the highest conversion_rate, especially 8pm having a lower conversion but higher conversion rate.
 
-```
-```
+---
+
 ## Recommendations
 
 - Running of Ads should target a minimum of 50 people and above to increase conversion rate.
